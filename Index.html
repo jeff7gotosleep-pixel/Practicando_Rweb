@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EnderVerse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-text-header">EnderVerse</div>
+    <button id="menu-toggle">☰</button>
+  </header>
+
+  <nav id="menu">
+    <ul>
+      <li><a href="catalogo.html">Mangas</a></li>
+      <li><a href="noticias.html">Noticias</a></li>
+      <li><a href="buscador.html">Buscar</a></li>
+      <li><a href="subir.html">¿Comó Subir Mangas?</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay">
+        <div class="hero-text">
+          <h2>Bienvenidos a <span class="highlight">EnderVerse</span></h2>
+          <p>Disfruta de tus mangas Favoritos de manera gratuita y en español</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="discord-call">
+      <h2>No olvide de Unirse a Nuestro Discord!</h2>
+    </section>
+
+    <section class="discord-button">
+      <a href="https://discord.com/" class="discord-btn">¡Unirme Ya!</a>
+    </section>
+
+    <!-- POR SUPUESTO CORREGIDO -->
+    <section class="discord-info balanced-layout">
+      <h2 class="discord-heading center">Por Supuesto</h2>
+      <div class="discord-content balanced">
+        <div class="discord-img-wrapper">
+          <img src="https://endermanga.wordpress.com/wp-content/uploads/2025/10/error.png" alt="Personaje manga" class="discord-img" />
+        </div>
+        <div class="discord-text centered-block">
+          <p>Y Por supuesto si quieres Pedir algún manga que subamos puedes hacerlo desde nuestro apartado de <strong>«Pedidos»</strong>.</p>
+          <p>Y de querer ser parte del <strong>«Staff»</strong> del server de Discord o un colaborador para <strong>«EnderVerse»</strong> pueden hacerlo también desde el <strong>«Discord»</strong>!!!!</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById('menu-toggle').onclick = () => {
+      document.getElementById('menu').classList.toggle('visible');
+    };
+  </script>
+</body>
+</html>
